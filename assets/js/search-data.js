@@ -25,10 +25,17 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "My Work Projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
+          },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
           },
         },{id: "nav-repositories",
           title: "repositories",
@@ -36,13 +43,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
-          },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
           title: "teaching",
@@ -58,21 +58,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -440,47 +426,68 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-just-moved-to-universidade-lusófona-department-of-engineering-as-an-assistant-professor",
+          title: 'I just moved to Universidade Lusófona - Department of Engineering as an Assistant...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-i-just-moved-to-the-department-of-informatics-faculty-of-sciencies-university-of-lisbon-as-an-invited-assistant-professor",
+          title: 'I just moved to the Department of Informatics - Faculty of Sciencies, University...',
+          description: "",
+          section: "News",},{id: "news-msc-phd-openings",
+          title: 'MSc/PhD Openings!',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/announcement_3/";
+            },},{id: "news-research-topic-tactile-perception-in-robotic-control-frontiers-in-robotics-and-ai",
+          title: 'Research Topic - Tactile Perception in Robotic Control (Frontiers in Robotics and AI)...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_4/";
+            },},{id: "news-workshop-at-icra-2024-human-centric-multilateral-teleoperation-augmentation",
+          title: 'Workshop at ICRA 2024 - Human-Centric Multilateral Teleoperation Augmentation',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_5/";
+            },},{id: "news-workshop-at-rss-2024-tactile-sensing-for-general-purpose-robot-learning",
+          title: 'Workshop at RSS 2024 - Tactile Sensing for General Purpose Robot Learning',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_6/";
+            },},{id: "news-workshop-at-rss-2024-robots-that-help-and-ask-for-help",
+          title: 'Workshop at RSS 2024 - Robots that help and ask for help',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_7/";
+            },},{id: "news-phd-opening",
+          title: 'PhD Opening',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_8/";
+            },},{id: "news-i-was-an-invited-speaker-at-the-romado-4th-workshop-on-robotic-manipulation-of-deformable-objects-beyond-traditional-approaches-link-https-romado-workshop-github-io-romado2024-github-io",
+          title: 'I was an invited speaker at the ROMADO: 4th workshop on RObotic MAnipulation...',
+          description: "",
+          section: "News",},{id: "news-i-was-an-invited-speaker-at-the-6th-uk-manipulation-workshop-organized-by-king-s-college-london-link-https-www-robot-manipulation-uk",
+          title: 'I was an invited speaker at the 6th UK Manipulation Workshop, organized by...',
+          description: "",
+          section: "News",},{id: "news-phd-opening",
+          title: 'PhD Opening',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/annoucement_11/";
+            },},{id: "projects-robot-grasping-and-manipulation",
+          title: 'Robot Grasping and Manipulation',
+          description: "My work related with robot grasping and manipulation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-mobile-robots",
+          title: 'Mobile Robots',
+          description: "My work related with mobile robots",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
