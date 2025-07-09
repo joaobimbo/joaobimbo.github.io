@@ -1,5 +1,15 @@
 ---
 layout: page
+title: Robot Grasping and Manipulation
+description: My work related with robot grasping and manipulation
+img: assets/img/grasp.png
+importance: 2
+category: work
+published: true
+
+---
+Coming soon...
+<!--=======
 title: project 2
 description: a project with a background image and giscus comments
 img: assets/img/3.jpg
@@ -79,3 +89,5 @@ Here's the code for the last row of images above:
 ```
 
 {% endraw %}
+>>>>>>> alfolio/main
+-->

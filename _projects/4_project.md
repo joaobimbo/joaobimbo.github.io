@@ -1,10 +1,12 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: Photos
+description: random photos taken by me
 img:
 importance: 3
 category: fun
+published: false
+
 ---
 
 Every project has a beautiful feature showcase page.
