@@ -3,6 +3,7 @@ layout: post
 title: PhD Opening
 date: 2025-07-01 12:59:00-0000
 inline: false
+related_posts: false
 ---
 
 We are always looking for highly motivated candidates to carry out research projects involving the development of robust methods for human-robot interaction, robot manipulation, and others.
