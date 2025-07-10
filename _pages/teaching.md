@@ -7,6 +7,19 @@ nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## 2024/2025
+### - Programming II
+### - Knowledge Engineering
+### - Mobile Robots
+### - Programming
 
-Organize your courses by years, topics, or universities, however you like!
+## 2023/2024
+### - Mobile Robots
+### - Programming
+### - Programming II (LTI)
+
+
+## 2022/2023
+### - Mobile Robots
+### - Data Mining
+### - Programming II
