@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "Courses",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -109,6 +109,9 @@ ninja.data = [{
               window.location.href = "/news/announcement_8/";
             },},{id: "news-i-was-an-invited-speaker-at-the-romado-4th-workshop-on-robotic-manipulation-of-deformable-objects-beyond-traditional-approaches-link-https-romado-workshop-github-io-romado2024-github-io",
           title: 'I was an invited speaker at the ROMADO: 4th workshop on RObotic MAnipulation...',
+          description: "",
+          section: "News",},{id: "news-i-just-hired-as-an-assistant-professor-to-the-department-of-informatics-faculty-of-sciencies-university-of-lisbon",
+          title: 'I just hired as an Assistant Professor to the Department of Informatics -...',
           description: "",
           section: "News",},{id: "news-i-was-an-invited-speaker-at-the-6th-uk-manipulation-workshop-organized-by-king-s-college-london-link-https-www-robot-manipulation-uk",
           title: 'I was an invited speaker at the 6th UK Manipulation Workshop, organized by...',
