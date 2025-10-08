@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PhD Opening
-date: 2025-07-01 12:59:00-0000
+date: 2025-10-08 12:59:00-0000
 inline: false
 related_posts: false
 ---
